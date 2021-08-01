@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Varela+Round&display=swap');
+
+body {
+    font-family: 'Staatliches', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+/* ****************************** NAVBAR ******************* */
+nav {
+    overflow: hidden;
+    background-color: #141514;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+#logo {
+    font-family: 'AbrilFatface', cursive;
+    font-weight: bold;
+    float: left;
+}
+a {
+    float: right;
+    font-size: 1.2em;  
+}
+header a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+/* ****************** IMAGE PRINCIPAL **************** */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(Média/téléchargement.png) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1 {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    color: grey;
+    font-size: 5em;
+    margin-top: 40px;
+    text-shadow: 1px 3px 2px black;
+}
+#premierTrait {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+}
+h3 {
+    text-align: center;
+    color: grey;
+    font-size: 3em;
+}
+/* *********************** PRESENTATION **************** */
+#presentation {
+    background-color: #141514;
+    padding: 10px 0px 100px 0;
+}
+#texteIntro {
+    padding: 0px 20%;
+}
+h2 {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    color: grey;
+    font-size: 5em;
+    margin-top: 40px;
+} 
+p {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    color: grey;
+    font-size: 2em;
+    margin-top: 40px;
+}
+#footer {
+    color: grey; 
+    font-family: 'Staatliches', cursive;
+}
+
+
+/* ****************************** RECRUTEMENT ********************************** */
+
+h4 {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    color: grey;
+    font-size: 5em;
+    margin-top: 40px;
+}
